@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Bar  */
+#section1{
+    display: flex;
+    left: 0px;
+    top: opx;
+    height: 135px;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+}
+#logo img{
+    display: flex;
+    height: 131px;
+    width: 133px;
+    border: 2px solid black;
+    margin: 0px 3px;
+    border-radius: 73px;
+}
+#headerlist{
+    display: flex;
+    align-items: center;
+    margin: 7px;
+    padding: 52px;
+}
+.headerselect a{
+    margin: -9px 21px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 9px;
+    color: white;
+    
+}
+.headerselect a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    list-style: none;
+}
+
+/* Body part 1 */
+#section2{
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    /* left: 0px;
+    top: 0px; */
+    height: 600px;
+    
+}
+.center{
+    position: absolute;
+    top: 38%;
+    
+}
+#heading1{
+    color: white;
+    text-align: center;
+    font-size: 286%;
+    font-family: 'Pacifico', cursive;
+}
+#subheading1{
+    color: white;
+    text-align: center;
+    font-size: 127%;
+    font-family: 'Pacifico', cursive;
+
+}
+#section2 img{
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 66%;
+}
+
+/* Body part II  */
+
