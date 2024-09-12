@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+#section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 135px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0 20px;
+    border-bottom: 2px solid #444;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#logo img {
+    height: 131px;
+    width: 133px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+#headerlist {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.headerselect a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.headerselect a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+/* About Us Section */
+#aboutUsSection {
+    padding: 50px;
+    background-image: url('Images/AboutUs.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#heading1 {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#aboutDescription {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.about-details h2 {
+    font-size: 2rem;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+}
+
+.about-details p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #heading1 {
+        font-size: 2.5rem;
+    }
+
+    #aboutDescription {
+        font-size: 1rem;
+    }
+
+    .about-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-details p {
+        font-size: 0.9rem;
+    }
+}

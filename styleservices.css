@@ -1,0 +1,125 @@
+/* Universal Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar  */
+#section1 {
+    display: flex;
+    left: 0;
+    top: 0;
+    height: 135px;
+    border: 2px solid black;
+    background-color: black;
+    position: sticky;
+    z-index: 1000;
+}
+
+#logo img {
+    height: 131px;
+    width: 133px;
+    border: 2px solid black;
+    margin: 0 3px;
+    border-radius: 73px;
+}
+
+#headerlist {
+    display: flex;
+    align-items: center;
+    margin: 7px;
+    padding: 52px;
+}
+
+.headerselect a {
+    margin: -9px 21px;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 9px;
+    color: white;
+}
+
+.headerselect a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Services Section */
+#servicesSection {
+    padding: 50px;
+    background-image: url('Images/ServicesBackground.jpg'); /* Change this to your image file */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .service h2 {
+        font-size: 1.5rem;
+    }
+
+    .service p {
+        font-size: 1rem;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

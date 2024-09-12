@@ -7,14 +7,14 @@
 #section1 {
     display: flex;
     left: 0px;
-    top: opx;
+    top: 0px;
     height: 135px;
     border: 2px solid black;
     background-color: black;
     position: sticky;
 }
 
-#logo img {
+#logo img{
     display: flex;
     height: 131px;
     width: 133px;
@@ -22,28 +22,26 @@
     margin: 0px 3px;
     border-radius: 73px;
 }
-
-#headerlist {
+#headerlist{
     display: flex;
     align-items: center;
     margin: 7px;
     padding: 52px;
 }
-
-.headerselect a {
+.headerselect a{
     margin: -9px 21px;
     list-style: none;
     text-decoration: none;
     padding: 10px 9px;
     color: white;
-
+    
 }
-
 .headerselect a:hover {
     color: black;
     background-color: white;
     border-radius: 20px;
     list-style: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Contact Body  */
@@ -94,11 +92,11 @@
     border-radius: px;
     width: 375px;
     height: 30px;
-    FONT-SIZE: 12.9px;
+    font-size: 12.9px;
     opacity: 66%;
 }
 
-/* From Uiverse.io by Custyyyy */
+
 #bottone1 {
     padding-left: 33px;
     padding-right: 33px;
