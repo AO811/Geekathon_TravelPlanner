@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* Navigation Bar  */
-#section1{
+#section1 {
     display: flex;
     left: 0px;
     top: opx;
@@ -13,7 +13,8 @@
     background-color: black;
     position: sticky;
 }
-#logo img{
+
+#logo img {
     display: flex;
     height: 131px;
     width: 133px;
@@ -21,21 +22,24 @@
     margin: 0px 3px;
     border-radius: 73px;
 }
-#headerlist{
+
+#headerlist {
     display: flex;
     align-items: center;
     margin: 7px;
     padding: 52px;
 }
-.headerselect a{
+
+.headerselect a {
     margin: -9px 21px;
     list-style: none;
     text-decoration: none;
     padding: 10px 9px;
     color: white;
-    
+
 }
-.headerselect a:hover{
+
+.headerselect a:hover {
     color: black;
     background-color: white;
     border-radius: 20px;
@@ -43,42 +47,48 @@
 }
 
 /* Contact Body  */
-.center{
+.center {
     position: absolute;
     top: 12%;
     left: 5%;
     text-align: center;
-    
+
 }
-#contactbody img{
+
+#contactbody img {
     height: 100%;
     width: 100%;
 }
-#contactbody{
+
+#contactbody {
     border: 2px solid black;
     position: relative;
     text-align: center;
     /* left: 0px;
     top: 0px; */
-    height: 700px;    
+    height: 700px;
 }
-#heading1{
+
+#heading1 {
     padding: 7px 0px;
     margin: 5px 7px;
     font-size: 200px;
     font-family: 'Pacifico', cursive;
 }
-#subheading1{
+
+#subheading1 {
     padding: 7px 0px;
     margin: 5px 7px;
     font-size: 100px;
     font-family: 'Pacifico', cursive;
 }
-.details{
+
+.details {
     padding: 5px 5px;
     margin: 0px 0px;
 }
-.input{
+
+.input {
     border: 2px solid black;
     padding: 2px 2px;
     border-radius: px;
@@ -86,4 +96,28 @@
     height: 30px;
     FONT-SIZE: 12.9px;
     opacity: 66%;
+}
+
+/* From Uiverse.io by Custyyyy */
+#bottone1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #d5f365;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#bottone1:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+}
+
+#bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
 }
